@@ -1,0 +1,247 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: rgb(31, 30, 30);
+}
+
+h1 {
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+.coresCss {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+
+/* Cards Declarando Cores em Css */
+
+.cardColor{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      background-color: blue;
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 200px;
+      width: 275px;
+      border: 2px solid white;
+      border-radius: 35px;
+}
+.cardColor2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;      
+      background-color: #1A43BF;
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 200px;
+      width: 275px;
+      border: 2px solid white;
+      border-radius: 35px;
+}
+
+.cardColor3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;      
+      background-color:  rgb(18,52,153);
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 200px;
+      width: 275px;
+      border: 2px solid white;
+      border-radius: 35px;
+}
+
+.cardColor4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;      
+      background-color: rgba(10,36,114,1);
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 200px;
+      width: 275px;
+      border: 2px solid white;
+      border-radius: 35px;
+}
+
+.cardColor5 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;      
+      background-color: hsl(226, 88%, 17%);
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 200px;
+      width: 275px;
+      border: 2px solid white;
+      border-radius: 35px;
+}
+
+/* Paleta de Cores Css */
+.paletaColor{
+      width: 800px;
+      height: 150px;
+      background-color: white; 
+      border: 2px solid white;    
+}
+.paletaCores {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.paletaColor1 {
+      background-color: #FFE5B4;
+}
+
+.paletaColor2 {
+      background-color: #FFA500;
+}
+
+.paletaColor3 {
+      background-color: #FF7F24;
+}
+
+.paletaColor4 {
+      background-color: #Cc5500;
+}
+
+.paletaColor5 {
+      background-color: #8B4500;
+}
+
+.paiTipografia{
+      display: flex;
+      justify-content: center;
+}
+
+.tipografia {
+      width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      border: 3px solid white;
+}
+
+.fontPadrao {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: 'Courier New', Courier, monospace;
+}
+
+.fontTamanho {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 35px;
+}
+
+.fontPeso {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: bold;
+}
+
+.fontGoogle1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: "Science Gothic", sans-serif;
+}
+
+.fontGoogle2 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-family: "Red Hat Display", sans-serif;
+}
+
+.configBackground{
+      width: 800px;
+      height: 150px;
+      background-color: white; 
+      border: 2px solid white;
+}
+
+.backgroundImages {
+      display: flex;
+      flex-direction: column;
+      align-items: center;    
+}
+
+.background1 {
+      background-color: purple;
+}
+
+.background2 {
+      background-image: url("https://cdn.pixabay.com/photo/2023/11/27/18/55/background-8416009_1280.jpg");
+}
+
+.background3 {
+      background-image: url("https://cdn.pixabay.com/photo/2023/11/27/18/55/background-8416009_1280.jpg");
+      background-size: 250px;
+}
+
+.background4 {
+      background-image: url("https://cdn.pixabay.com/photo/2023/11/27/18/55/background-8416009_1280.jpg");
+      background-position: 30px;
+}
+
+.background5 {
+      background-image: url("https://img.freepik.com/vetores-gratis/projeto-abstrato-do-fundo_1117-154.jpg?semt=ais_hybrid&w=740&q=80");
+      background-repeat: no-repeat;
+}
+
+
+.gradientes {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+
+.configGradiente{
+      width: 800px;
+      height: 150px;
+      background-color: white; 
+      border: 3px solid white;
+
+}
+
+.gradiente1 {
+      background: linear-gradient(#FFE5B4, #8B4500);
+}
+
+.gradiente2 {
+      background: linear-gradient(#FFE5B4, #FF7F24, #8B4500);
+}
+
+.gradiente3 {
+      background: linear-gradient(to right, #FFE5B4, #FF7F24, #8B4500);
+}
+
+.gradiente4 {
+      background: radial-gradient( #FFE5B4, #FF7F24, #8B4500);
+}
+
+.gradiente5 {
+      background: linear-gradient(65deg, #b4ffcb, #7c4473, #17d644);
+}
+
